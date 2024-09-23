@@ -10,7 +10,11 @@ While discussing how to add images to our pages and link to other pages on our s
 
 *Normally* this would be correct, *if* we owned our own domain on the Internet. ***But***, we are using *GitHub* to host our websites, which includes a folder name for the repository, ruining our "root folder".
 
-Instead of `https://<username>.github.io/<site name>` your site is actually `https://<username>.github.io/<repo name>/<site name>`
+Instead of:
+>`https://<username>.github.io/<site name>`
+
+your site is actually:
+>`https://<username>.github.io/<repo name>/<site name>`
 
 
 There are two ways to fix this:
