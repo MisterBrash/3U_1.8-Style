@@ -42,7 +42,7 @@ There are some images and pages in this repo demonstrating this.
 
 There are 3 (three) ways to include *style* in your HTML.
 
-### 1. Inline Style
+### 1. Inline Style 🤮
 ##### (aka the *messy* wrong way)
 
 We can add style to *one* tag, using the `style=""` attribute, separating style commands with a semicolon (`;`):
@@ -56,7 +56,7 @@ We can add style to *one* tag, using the `style=""` attribute, separating style 
 </p>
 
 
-### 2. Head Style
+### 2. Head Style 🙈
 ##### (aka the *clean* wrong way)
 
 Inside the `<head>` of the document, we can use the `style` tag do *define* styles for our tags:
@@ -86,7 +86,7 @@ Inside the `<head>` of the document, we can use the `style` tag do *define* styl
 </head>
 ```
 
-### 3. Using a Separate .css file ✔
+### 3. Using a Separate .css file ✔ 👍
 
 Inside a separate file, you can define your styles and then load the file into your HTML with [the `<link>` tag](https://www.w3schools.com/tags/tag_link.asp):
 
