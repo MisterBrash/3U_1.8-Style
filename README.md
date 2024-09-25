@@ -91,7 +91,45 @@ Inside the `<head>` of the document, we can use the `style` tag do *define* styl
 Inside a separate file, you can define your styles and then load the file into your HTML with [the `<link>` tag](https://www.w3schools.com/tags/tag_link.asp):
 
 ```HTML
-<link rel="stylesheet" href="/css/main_style.css">
+<link rel="stylesheet" href="./css/main_style.css">
 ```
 
 In the above example the `rel` attribute tells the browser the *relationship* between this document at the linked file.
+
+The `.css` file will contain all the style definitions you would like for this particular them/page/usage. You can also create as many `.css` files as you like and load them on any `.html` document you like.
+
+**Example .css file:**
+
+```CSS
+/* Elements */
+body {
+  font-size: 100%;
+  margin: 10px;
+}
+
+p {
+  text-align:center;
+  color:purple;
+  font-size:1.5em;
+}
+
+/* IDs */
+#intro_paragraph {
+  text-align: left;
+  color: black;
+  font-size:1em;
+}
+
+/* Classes */
+.container {
+  margin: 20px;
+  background-color: grey;
+}
+```
+
+### Learning style commands and options can take *weeks*. I highly recommend you [learn as you go](https://www.w3schools.com/css/).
+
+<br>
+<br>
+
+🐿️
